@@ -2,6 +2,7 @@
 .navigation,
 .logoContainer {
   display: flex;
+  align-items: center;
 }
 
 .logoContainer img {
