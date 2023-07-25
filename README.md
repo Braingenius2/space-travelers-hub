@@ -1,12 +1,12 @@
 
-# Math-Magicians
+# Space Travelers' Hub
 <a name="readme-top"></a>
 
 <div align="center">
   <img src="http://img.scoop.it/cKEZkd1vEUhIUuoyVpYuQjl72eJkfbmt4t8yenImKBXEejxNn4ZJNZ2ss5Ku7Cxt" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Math-Magicians</b></h3>
+  <h3><b>Space Travelers' Hub</b></h3>
 
 </div>
 
@@ -35,9 +35,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# ⭐ Math-Magicians <a name="about-project"></a>
+# ⭐ Space Travelers' Hub <a name="about-project"></a>
 
-**"Math magicians" is a Single Page App for math. Perform simple calculations and read a random math-related quote to inspire and motivate mathematical thinking. Built with React. Contributions welcome!** 
+**"Math magicians" is a Single Page App that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Built with React. Contributions welcome!** 
 
 ## 🛠 Built With <a name="built-with"></a>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -48,7 +48,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   <summary>Client</summary>
   <ul>
     <li>React</li>
-    
+    <li>React Logger</li>
+    <li>React Router</li>
+    <li>React Testing Library</li>
+    <li>CSS</li>
   </ul>
 </details>
 
@@ -56,9 +59,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Key Features <a name="key-features"></a>
 
-- **minimalist UI**
-- **Motivational quotes tailored for maths enthusiasts**
-- **Speedy calculations**
+- **View and book available SpaceX rockets**
+- **View and join current space missions**
+- **View reserved rockets and joined missions in the My Profile section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,7 +100,8 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:Braingenius2/Math-Magicians.git
+  git clone git@github.com:Braingenius2/space-travelers-hub.git
+  cd space-travelers-hub
 ```
 
 ### Install
@@ -189,14 +193,26 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/braingenius2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fortune-uzodinma-8943b2136/)
 
+👤 **Author2**
+
+- GitHub: [@braingenius2](https://github.com/braingenius2)
+- Twitter: [@twitterhandle](https://twitter.com/braingenius2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fortune-uzodinma-8943b2136/)
+
+👤 **Author3**
+- GitHub: [@braingenius2](https://github.com/braingenius2)
+- Twitter: [@twitterhandle](https://twitter.com/braingenius2)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fortune-uzodinma-8943b2136/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [] **Scientific calculator**
-- [] **Generative AI math solving capabilities**
+- [] **Enhance My Profile section with placeholder messages when lists are empty**
+- [] **Add "Cancel reservation" and "Leave Mission" buttons in the My Profile section**
+- [] **Add "Read more" buttons for each mission and rocket to open corresponding Wikipedia pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -214,7 +230,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please drop a review or hit me up for job opportunities.
+If you find this project helpful, please consider giving it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,7 +239,7 @@ If you like this project please drop a review or hit me up for job opportunities
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
-I would like to thank myself and Microverse!
+Thanks to SpaceX for providing the API and Microverse for the guidance and support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
