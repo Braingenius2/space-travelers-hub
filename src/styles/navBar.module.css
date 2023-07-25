@@ -1,5 +1,6 @@
 .navBar,
-.navigation {
+.navigation,
+.logoContainer {
   display: flex;
 }
 
