@@ -4,7 +4,15 @@
   display: flex;
 }
 
+.logoContainer img {
+  width: 80px;
+}
+
 .navigation {
   list-style: none;
   gap: 20px;
+}
+
+.navLinks:hover {
+  cursor: pointer;
 }
