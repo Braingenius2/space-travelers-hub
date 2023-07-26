@@ -1,4 +1,5 @@
 import styles from '../styles/navBar.module.css';
+import { NavLink } from 'react-router-dom';
 
 export default function NavBar() {
   return (
@@ -10,7 +11,9 @@ export default function NavBar() {
         </div>
         <ul className={styles.navigation}>
           <li className={styles.navLinks}>Rockets</li>
-          <li className={styles.navLinks}>Missions</li>
+          <li className={styles.navLinks}>
+            <NavLink to="missions">Missions</NavLink>
+            </li>
           <li className={styles.navLinks}>My Profile</li>
         </ul>
       </nav>
