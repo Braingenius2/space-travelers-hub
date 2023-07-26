@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import styles from '../styles/navBar.module.css';
 
 export default function NavBar() {
@@ -9,9 +10,9 @@ export default function NavBar() {
           <h1>Space Traveler&apos;s Hub</h1>
         </div>
         <ul className={styles.navigation}>
-          <li className={styles.navLinks}>Rockets</li>
-          <li className={styles.navLinks}>Missions</li>
-          <li className={styles.navLinks}>My Profile</li>
+          <NavLink to="/rockets" activeClassName={styles.activeLink}><li className={styles.navLinks}>Rockets</li></NavLink>
+          <NavLink to="/missions" activeClassName={styles.activeLink}><li className={styles.navLinks}>Missions</li></NavLink>
+          <NavLink to="/profile" activeClassName={styles.activeLink}><li className={styles.navLinks}>My Profile</li></NavLink>
         </ul>
       </nav>
     </header>
