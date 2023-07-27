@@ -38,4 +38,4 @@ const RocketsSlice = createSlice({
   },
 });
 
-export default RocketsSlice;
+export { RocketsSlice, getRockets };
