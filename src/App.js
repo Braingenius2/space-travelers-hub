@@ -1,7 +1,10 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NavBar from './components/navBar';
-import './App.css';
+import Rockets from './components/rockets';
+import Missions from './components/missions';
+import MyProfile from './components/myProfile';
+import Dragons from './components/dragons';
 
 function App() {
   return (
