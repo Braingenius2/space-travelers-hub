@@ -23,6 +23,9 @@ export default function NavBar() {
           <li className={`${styles.navLinks} ${currentPage === 'missions' ? styles.active : ''}`}>
             <NavLink to="missions">Missions</NavLink>
           </li>
+          <li className={styles.navigation}>
+            <NavLink to="dragons">Dragons</NavLink>
+          </li>
           <li className={styles.navLinks}>My Profile</li>
         </ul>
       </nav>
