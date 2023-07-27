@@ -1,8 +1,8 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import rocketsSlice from './rockets/rocketsSlice';
+import { RocketsSlice } from './rockets/rocketsSlice';
 
 const rootReducer = combineReducers({
-  rockets: rocketsSlice.reducer,
+  rockets: RocketsSlice.reducer,
 });
 
 const store = configureStore({
