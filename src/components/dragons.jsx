@@ -1,7 +1,7 @@
-const Dragons = () => {
-  return (
-    <div></div>
-  );
-};
+const Dragons = () => (
+  <div>
+    <h2>Dragons</h2>
+  </div>
+);
 
 export default Dragons;

@@ -28,6 +28,10 @@ export default function NavBar() {
           <li className={styles.navLinks}>
             <NavLink exact to="/profile" activeClassName={styles.activeLink}>My Profile</NavLink>
           </li>
+          <li className={styles.navigation}>
+            <NavLink to="dragons">Dragons</NavLink>
+          </li>
+          <li className={styles.navLinks}>My Profile</li>
         </ul>
       </nav>
     </header>
