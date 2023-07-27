@@ -1,7 +1,5 @@
-const MyProfile = () => {
-  return (
-    <div></div>
-  );
-};
+const MyProfile = () => (
+  <div />
+);
 
 export default MyProfile;
