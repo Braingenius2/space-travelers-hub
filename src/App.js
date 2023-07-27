@@ -12,7 +12,7 @@ function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route index element={<Rockets />} />
+          <Route index path="/rockets" element={<Rockets />} />
           <Route path="/missions" element={<Missions />} />
           <Route path="/profile" element={<MyProfile />} />
           <Route path="/dragons" element={<Dragons />} />
