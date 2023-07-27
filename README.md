@@ -37,7 +37,7 @@
 
 # ⭐ Space Travelers' Hub <a name="about-project"></a>
 
-**"Math magicians" is a Single Page App that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Built with React. Contributions welcome!** 
+**"Space Travelers' Hub" is a Single Page App that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions. Built with React. Contributions welcome!** 
 
 ## 🛠 Built With <a name="built-with"></a>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

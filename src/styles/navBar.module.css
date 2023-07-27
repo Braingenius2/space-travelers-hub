@@ -19,6 +19,6 @@
   cursor: pointer;
 }
 
-.active {
+.activeLink {
   text-decoration: underline;
 }

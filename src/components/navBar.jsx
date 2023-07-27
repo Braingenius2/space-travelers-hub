@@ -19,9 +19,14 @@ export default function NavBar() {
           <h1>Space Traveler&apos;s Hub</h1>
         </div>
         <ul className={styles.navigation}>
-          <li className={styles.navLinks}>Rockets</li>
-          <li className={`${styles.navLinks} ${currentPage === 'missions' ? styles.active : ''}`}>
-            <NavLink to="missions">Missions</NavLink>
+          <li className={styles.navLinks}>
+            <NavLink exact to="/rockets" activeClassName={styles.activeLink}>Rockets</NavLink>
+          </li>
+          <li className={`${styles.navLinks} ${currentPage === 'missions' ? styles.activeLink : ''}`}>
+            <NavLink to="/missions">Missions</NavLink>
+          </li>
+          <li className={styles.navLinks}>
+            <NavLink exact to="/profile" activeClassName={styles.activeLink}>My Profile</NavLink>
           </li>
           <li className={styles.navigation}>
             <NavLink to="dragons">Dragons</NavLink>
