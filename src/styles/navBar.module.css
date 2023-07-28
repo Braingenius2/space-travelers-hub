@@ -21,6 +21,11 @@
   gap: 20px;
 }
 
+.navLinks * {
+  text-decoration: none;
+  color: blue;
+}
+
 .navLinks:hover {
   cursor: pointer;
 }
