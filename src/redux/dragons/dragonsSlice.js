@@ -29,6 +29,15 @@ export const dragonsSlice = createSlice({
         existingDragon.reserved = true;
       }
     },
+    cancelDragon(state, action) {
+      const dragonID = action.payload;
+      const existingDragon = state.dragons.find(
+        (dragon) => dragon.id === dragonID,
+      );
+      if (existingDragon) {
+        existingDragon.reserved = false;
+      }
+    },
   },
   extraReducers(builder) {
     builder
@@ -46,6 +55,6 @@ export const dragonsSlice = createSlice({
   },
 });
 
-export const { reserveDragon } = dragonsSlice.actions;
+export const { reserveDragon, cancelDragon } = dragonsSlice.actions;
 
 export default dragonsSlice.reducer;
