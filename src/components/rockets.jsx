@@ -4,7 +4,7 @@ import { getRockets } from '../redux/rockets/rocketsSlice';
 
 const Rockets = () => {
   const dispatch = useDispatch();
-  const { rocketsList } = useSelector((state) => state.rockets);
+  const { rockets } = useSelector((state) => state.rockets);
 
   useEffect(() => {
     dispatch(getRockets());
@@ -12,7 +12,7 @@ const Rockets = () => {
 
   return (
     <>
-      {rocketsList.rockets.map((rocket) => (
+      {rockets.map((rocket) => (
         <div key={rocket.id}>
           <img src={rocket.flickr_images[0]} alt={rocket.name} />
           <p>{rocket.rocket_name}</p>
