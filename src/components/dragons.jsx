@@ -1,15 +1,10 @@
-import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { fetchDragons, reserveDragon } from '../redux/dragons/dragonsSlice';
+import { reserveDragon } from '../redux/dragons/dragonsSlice';
 import styles from '../styles/dragons.module.css';
 
 const Dragons = () => {
   const dispatch = useDispatch();
   const { dragons } = useSelector((state) => state.dragons);
-
-  useEffect(() => {
-    dispatch(fetchDragons());
-  }, [dispatch]);
 
   return (
     <div className={styles.container}>
