@@ -22,6 +22,14 @@
   border-radius: 5px;
 }
 
+.cancelButton {
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
 .container {
   padding: 0 4vw;
   display: flex;
