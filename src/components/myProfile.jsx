@@ -1,4 +1,5 @@
 import { useSelector } from 'react-redux/es/hooks/useSelector';
+import styles from '../styles/profile.module.css';
 
 const MyProfile = () => {
   const { dragons } = useSelector((state) => state.dragons);
@@ -24,14 +25,14 @@ const MyProfile = () => {
   }
 
   return (
-    <div>
+    <div className={styles.container}>
       <table>
         <thead>
           <tr>
             <th>My Dragons</th>
           </tr>
         </thead>
-        <tbody>{dragonsList()}</tbody>
+        <tbody className={styles.body}>{dragonsList()}</tbody>
       </table>
     </div>
   );
