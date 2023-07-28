@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { reserveDragon } from '../redux/dragons/dragonsSlice';
+import { reserveDragon, cancelDragon } from '../redux/dragons/dragonsSlice';
 import styles from '../styles/dragons.module.css';
 
 const Dragons = () => {
@@ -21,7 +21,9 @@ const Dragons = () => {
               type="button"
               className={dragons.reserved ? styles.cancelButton : styles.reserveButton}
               onClick={() => {
-                dispatch(reserveDragon(dragons.id));
+                dispatch(dragons.reserved
+                  ? cancelDragon(dragons.id)
+                  : reserveDragon(dragons.id));
               }}
             >
               {dragons.reserved ? 'Cancel Reservation' : 'Reserve Dragon'}
