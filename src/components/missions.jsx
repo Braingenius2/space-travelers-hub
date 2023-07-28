@@ -15,27 +15,25 @@ const Missions = () => {
   if (error) return (<div>{error}</div>);
 
   return (
-    <div>
-      <Table>
-        <thead>
-          <tr>
-            <th>Mission</th>
-            <th>Descripton</th>
-            <th>Status</th>
+    <Table striped bordered hover responsive variant="dark">
+      <thead>
+        <tr>
+          <th>Mission</th>
+          <th>Descripton</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        {missions.map((mission) => (
+          <tr key={mission.mission_id}>
+            <td>{mission.mission_name}</td>
+            <td>{mission.description}</td>
+            <td>NOT A MEMBER</td>
+            <td><button type="button">Join Misson</button></td>
           </tr>
-        </thead>
-        <tbody>
-          {missions.map((mission) => (
-            <tr key={mission.mission_id}>
-              <td>{mission.mission_name}</td>
-              <td>{mission.description}</td>
-              <td>NOT A MEMBER</td>
-              <td><button type="button">Join Misson</button></td>
-            </tr>
-          ))}
-        </tbody>
-      </Table>
-    </div>
+        ))}
+      </tbody>
+    </Table>
   );
 };
 
