@@ -12,13 +12,18 @@ const Dragons = () => {
 
   return (
     <div>
-      <h2>Dragons</h2>
       <div>
         {dragons.map((dragons) => (
-          <div key={dragons.id}>
+          <div key={dragons.id} className="dragons">
             <img src={dragons.flickr_images[0]} alt={dragons.name} />
-            <p>{dragons.name}</p>
-            <p>{dragons.type}</p>
+            <div>
+              <h2>{dragons.name}</h2>
+              <p>
+                <span className="reserveSpan" />
+                {dragons.description}
+              </p>
+              <button type="button" className="reserveButton">Reserve Dragon</button>
+            </div>
           </div>
         ))}
       </div>
