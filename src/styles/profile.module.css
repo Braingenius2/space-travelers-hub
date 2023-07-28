@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  padding: 0 20px;
+}
+
+.container th {
+  font-size: 2rem;
+}
+
+.body td {
+  padding: 5px 10px;
+  border: 1px solid gray;
+}
