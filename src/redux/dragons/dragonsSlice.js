@@ -12,7 +12,7 @@ export const fetchDragons = createAsyncThunk('dragons/fetchDragons', async () =>
     const response = await axios.get('https://api.spacexdata.com/v3/dragons');
     return response.data || [];
   } catch (err) {
-    return 'Some error'
+    return 'Some error';
   }
 });
 
@@ -22,18 +22,18 @@ export const dragonsSlice = createSlice({
   reducers: {},
   extraReducers(builder) {
     builder
-     .addCase(fetchDragons.pending, (state) => {
-      state.status = 'loading';
-     })
-     .addCase(fetchDragons.fulfilled, (state) => {
-      state.status = 'succeeded';
-      state.dragons = action.payload;
-     })
-     .addCase(fetchDragons.rejected, (state) => {
-      state.status = 'failed';
-      state.error = action.error.message;
-     });
-  }
+      .addCase(fetchDragons.pending, (state) => {
+        state.status = 'loading';
+      })
+      .addCase(fetchDragons.fulfilled, (state, action) => {
+        state.status = 'succeeded';
+        state.dragons = action.payload;
+      })
+      .addCase(fetchDragons.rejected, (state, action) => {
+        state.status = 'failed';
+        state.error = action.error.message;
+      });
+  },
 });
 
 export default dragonsSlice.reducer;
