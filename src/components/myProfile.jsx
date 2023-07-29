@@ -50,6 +50,14 @@ const MyProfile = () => {
       <table>
         <thead>
           <tr>
+            <th>My Missions</th>
+          </tr>
+        </thead>
+        <tbody className={styles.body}>{missionsList()}</tbody>
+      </table>
+      <table>
+        <thead>
+          <tr>
             <th>My Dragons</th>
           </tr>
         </thead>
