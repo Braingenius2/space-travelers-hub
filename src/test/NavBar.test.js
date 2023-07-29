@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { HashRouter } from 'react-router-dom';
 
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navBar';
 
 // Helper function to wrap the component in BrowserRouter for testing NavLink
 const renderWithRouter = (component) => render(<HashRouter>{component}</HashRouter>);
