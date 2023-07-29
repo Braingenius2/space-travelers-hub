@@ -1,8 +1,13 @@
 .container {
   display: flex;
   padding: 0 20px;
-  justify-content: center;
-  gap: 2em;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.container table {
+  width: 30%;
 }
 
 .container th {
