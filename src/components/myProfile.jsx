@@ -68,23 +68,6 @@ const MyProfile = () => {
 
   return (
     <div className={styles.container}>
-      <table aria-label="table of my dragons" className={styles.table}>
-        <thead>
-          <tr>
-            <th>My Missions</th>
-          </tr>
-        </thead>
-        <tbody className={styles.body}>{missionsList()}</tbody>
-      </table>
-      <table className={styles.table}>
-        <thead>
-          <tr>
-            <th>My Dragons</th>
-          </tr>
-        </thead>
-        <tbody className={styles.body}>{dragonsList()}</tbody>
-      </table>
-
       <table aria-label="table of my rockets">
         <thead>
           <tr>
@@ -92,6 +75,24 @@ const MyProfile = () => {
           </tr>
         </thead>
         <tbody className={styles.body}>{rocketsList()}</tbody>
+      </table>
+
+      <table aria-label="table of my missions" className={styles.table}>
+        <thead>
+          <tr>
+            <th>My Missions</th>
+          </tr>
+        </thead>
+        <tbody className={styles.body}>{missionsList()}</tbody>
+      </table>
+
+      <table aria-label="table of my dragons" className={styles.table}>
+        <thead>
+          <tr>
+            <th>My Dragons</th>
+          </tr>
+        </thead>
+        <tbody className={styles.body}>{dragonsList()}</tbody>
       </table>
     </div>
   );
