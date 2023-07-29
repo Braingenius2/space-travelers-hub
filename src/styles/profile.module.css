@@ -1,13 +1,27 @@
 .container {
   display: flex;
   padding: 0 20px;
+  justify-content: center;
+  gap: 2em;
 }
 
 .container th {
   font-size: 2rem;
 }
 
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.body {
+  border: 1px solid gray;
+}
+
 .body td {
   padding: 5px 10px;
-  border: 1px solid gray;
+  border-bottom: 1px solid gray;
+  border-collapse: separate;
+  height: 4rem;
+  width: 30vw;
 }
