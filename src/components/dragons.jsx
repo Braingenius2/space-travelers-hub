@@ -15,6 +15,7 @@ const Dragons = () => {
             <h2>{dragons.name}</h2>
             <p>
               {dragons.reserved && <span className={styles.reserveSpan}>Reserved</span>}
+              {' '}
               {dragons.description}
             </p>
             <button
