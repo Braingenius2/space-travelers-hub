@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the Dragons component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="dragons"
+    >
+      <img
+        alt="Dragon 1"
+        class="images"
+        src="https://i.imgur.com/9fWdwNv.jpg\\",\\"https://live.staticflickr.com/8578/16655995541_078768dea2_b.jpg"
+      />
+      <div>
+        <h2>
+          Dragon 1
+        </h2>
+        <p>
+           
+          Dragon is a reusable spacecraft developed by SpaceX, an American private space transportation company based in Hawthorne, California. Dragon is launched into space by the SpaceX Falcon 9 two-stage-to-orbit launch vehicle. The Dragon spacecraft was originally designed for human travel, but so far has only been used to deliver cargo to the International Space Station (ISS).
+        </p>
+        <button
+          class="reserveButton"
+          type="button"
+        >
+          Reserve Dragon
+        </button>
+      </div>
+    </div>
+    <div
+      class="dragons"
+    >
+      <img
+        alt="Dragon 2"
+        class="images"
+        src="https://farm8.staticflickr.com/7647/16581815487_6d56cb32e1_b.jpg"
+      />
+      <div>
+        <h2>
+          Dragon 2
+        </h2>
+        <p>
+           
+          Dragon 2 (also Crew Dragon, Dragon V2, or formerly DragonRider) is the second version of the SpaceX Dragon spacecraft, which will be a human-rated vehicle. It includes a set of four side-mounted thruster pods with two SuperDraco engines each, which can serve as a launch escape system or launch abort system (LAS). In addition, it has much larger windows, new flight computers and avionics, and redesigned solar arrays, and a modified outer mold line from the initial cargo Dragon that has been flying for several years.
+        </p>
+        <button
+          class="reserveButton"
+          type="button"
+        >
+          Reserve Dragon
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

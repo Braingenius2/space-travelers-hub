@@ -6,6 +6,12 @@
   justify-content: space-around;
 }
 
+.navBar {
+  border-bottom: 2px solid #e8e8e8;
+  padding: 20px;
+  margin-bottom: 18px;
+}
+
 .logoContainer img {
   width: 80px;
 }
@@ -15,10 +21,16 @@
   gap: 20px;
 }
 
+.navLinks * {
+  text-decoration: none;
+  color: blue;
+}
+
 .navLinks:hover {
   cursor: pointer;
 }
 
-.active {
+.activeLink {
   text-decoration: underline;
+  color: blue;
 }

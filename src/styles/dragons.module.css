@@ -1,0 +1,38 @@
+.dragons {
+  display: flex;
+  gap: 1em;
+}
+
+.images {
+  width: 200px;
+}
+
+.reserveSpan {
+  background-color: #009b9d;
+  color: white;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+.reserveButton {
+  background-color: rgb(42, 112, 241);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.cancelButton {
+  color: black;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 0 4vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
