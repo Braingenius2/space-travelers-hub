@@ -1,6 +1,7 @@
 import { useSelector, useDispatch } from 'react-redux';
 import Table from 'react-bootstrap/Table';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from '../styles/missions.module.css';
 import { joinMission, leaveMission } from '../redux/missions/missionsSlice';
 
 const Missions = () => {
@@ -11,19 +12,6 @@ const Missions = () => {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-  };
-
-  const nonActive = {
-    border: 'none',
-    borderRadius: '6px',
-    backgroundColor: 'black',
-    color: 'white',
-  };
-  const active = {
-    border: 'none',
-    borderRadius: '6px',
-    backgroundColor: '#008000',
-    color: 'white',
   };
 
   const handleJoinMission = (missionId) => {
@@ -55,12 +43,12 @@ const Missions = () => {
               <td>{mission.description}</td>
               <td>
                 { mission.reserved
-                  ? (<p style={nonActive}>NOT A MEMBER</p>)
-                  : (<p style={active}>Active Member</p>) }
+                  ? (<p className={styles.Active}>Active Member</p>)
+                  : (<p className={styles.nonActive}>NOT A MEMBER</p>) }
               </td>
               <td>
                 { mission.reserved
-                  ? (<button type="button" aria-label="Join Mission" onClick={() => handleJoinMission(mission.mission_id)}>Join Misson</button>) : (<button type="button" aria-label="Leave Mission" onClick={() => handleLeaveMission(mission.mission_id)}>Leave Misson</button>)}
+                  ? (<button className={styles.leave} type="button" aria-label="Leave Mission" onClick={() => handleLeaveMission(mission.mission_id)}>Leave Misson</button>) : (<button className={styles.join} type="button" aria-label="Join Mission" onClick={() => handleJoinMission(mission.mission_id)}>Join Misson</button>)}
               </td>
             </tr>
           ))}
