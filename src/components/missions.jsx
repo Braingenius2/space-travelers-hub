@@ -1,11 +1,8 @@
-import { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import Table from 'react-bootstrap/Table';
-import { fetchMissions } from '../redux/missions/missionsSlice';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Missions = () => {
-  const dispatch = useDispatch();
   const { missions, isLoading, error } = useSelector((state) => state.missions);
 
   const style = {
@@ -13,10 +10,6 @@ const Missions = () => {
     flexDirection: 'column',
     alignItems: 'center',
   };
-
-  useEffect(() => {
-    dispatch(fetchMissions());
-  }, [dispatch]);
 
   if (isLoading) return (<div>Loading...</div>);
   if (error) return (<div>{error}</div>);
