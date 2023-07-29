@@ -43,7 +43,7 @@ const Missions = () => {
               <td>{mission.description}</td>
               <td>
                 { mission.reserved
-                  ? (<p className={styles.Active}>Active Member</p>)
+                  ? (<p className={styles.active}>Active Member</p>)
                   : (<p className={styles.nonActive}>NOT A MEMBER</p>) }
               </td>
               <td>
