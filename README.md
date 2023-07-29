@@ -193,16 +193,16 @@ Example:
 - Twitter: [@twitterhandle](https://twitter.com/braingenius2)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/fortune-uzodinma-8943b2136/)
 
-👤 **Author2**
+👤 **Pedro Henrique Domingues Neves**
 
-- GitHub: [@braingenius2](https://github.com/braingenius2)
-- Twitter: [@twitterhandle](https://twitter.com/braingenius2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fortune-uzodinma-8943b2136/)
+- GitHub: [@PedroH-Neves](https://github.com/PedroH-Neves)
+- Twitter: [@PedroHDN710](https://twitter.com/PedroHDN710)
+- LinkedIn: [Pedro Neves](https://www.linkedin.com/in/pedro-henrique-domingues-neves-8a5878244/)
 
-👤 **Author3**
-- GitHub: [@braingenius2](https://github.com/braingenius2)
-- Twitter: [@twitterhandle](https://twitter.com/braingenius2)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fortune-uzodinma-8943b2136/)
+👤 **Manuel Sánchez**
+- GitHub: [@Luffytaro22](https://github.com/Luffytaro22)
+- Twitter: [@Luffytaro_san22](https://twitter.com/Luffytaro_san22)
+- LinkedIn: [Manuel Sánchez](https://www.linkedin.com/in/manuel-alejandro-sanchez-sierra-4b358b14a/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
