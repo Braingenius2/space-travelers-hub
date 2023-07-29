@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the App component correctly 1`] = `
+<div>
+  <div>
+    <header>
+      <nav
+        class="navBar"
+      >
+        <div
+          class="logoContainer"
+        >
+          <img
+            alt="logo"
+            src="./planet.png"
+          />
+          <h1>
+            Space Traveler's Hub
+          </h1>
+        </div>
+        <ul
+          class="navigation"
+        >
+          <li
+            class="navLinks activeLink"
+          >
+            <a
+              aria-current="page"
+              class="active"
+              href="/"
+            >
+              Rockets
+            </a>
+          </li>
+          <li
+            class="navLinks "
+          >
+            <a
+              class=""
+              href="/missions"
+            >
+              Missions
+            </a>
+          </li>
+          <li
+            class="navLinks "
+          >
+            <a
+              class=""
+              href="/dragons"
+            >
+              Dragons
+            </a>
+          </li>
+          <li
+            class="navLinks "
+          >
+            <a
+              class=""
+              href="/profile"
+            >
+              My Profile
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div
+      class="container"
+    />
+  </div>
+</div>
+`;
