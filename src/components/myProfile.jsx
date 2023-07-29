@@ -47,7 +47,7 @@ const MyProfile = () => {
 
   return (
     <div className={styles.container}>
-      <table>
+      <table className={styles.table}>
         <thead>
           <tr>
             <th>My Missions</th>
@@ -55,7 +55,7 @@ const MyProfile = () => {
         </thead>
         <tbody className={styles.body}>{missionsList()}</tbody>
       </table>
-      <table>
+      <table className={styles.table}>
         <thead>
           <tr>
             <th>My Dragons</th>
